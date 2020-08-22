@@ -1,0 +1,287 @@
+int main(int argc,char *argv[]) {
+  while(fgets(line,10000,input)!=NULL) {
+    if (strstr(line,B1_1)-line==0 || strstr(line,B1_2)-line==1 || strstr(line,B1_3)-line==0 || strstr(line,B1_4)-line==0 || strstr(line,B1_1)-line==0 ) {
+    }
+    else {
+      if (strstr(line,B1_3)-line==0 || strstr(line,B1_4)-line==0 || strstr(line,B1_1)-line==0 ) {
+      }
+      else {
+        if (strstr(line,B1_3)-line==0 || strstr(line,B1_4)-line==0 || strstr(line,B1_1)-line==0 ) {
+        }
+        else {
+          if (strstr(line,B1_3)-line==0 || strstr(line,B1_4)-line==0 || strstr(line,B1_1)-line==0 ) {
+          }
+          else {
+            if (strstr(line,B1_3)-line==0 || strstr(line,B1_4)-line==0 || strstr(line,B1_1)-line==0 ) {
+            }
+          }
+        }
+      }
+    }
+    if (flag==0) {
+      if (strstr(line,B2_1)-line==0 || strstr(line,B2_2)-line==1 || strstr(line,B2_3)-line==0 || strstr(line,B2_4)-line==0 || strstr(line,B2_1)-line==0 ) {
+      }
+      else {
+      if (strstr(line,B2_3)-line==0 || strstr(line,B2_4)-line==0 || strstr(line,B2_1)-line==0 ) {
+      }
+      else {
+        if (strstr(line,B2_3)-line==0 || strstr(line,B2_4)-line==0 || strstr(line,B2_1)-line==0 ) {
+        }
+        else {
+          if (strstr(line,B2_3)-line==0 || strstr(line,B2_4)-line==0 || strstr(line,B2_1)-line==0 ) {
+          }
+          else {
+            if (strstr(line,B2_3)-line==0 || strstr(line,B2_4)-line==0 || strstr(line,B2_1)-line==0 ) {
+            }
+          }
+        }
+      }
+    }
+    if (flag==0) {
+      if (strstr(line,B3_1)-line==0 || strstr(line,B3_2)-line==1 || strstr(line,B3_3)-line==0 || strstr(line,B3_4)-line==0 || strstr(line,B3_1)-line==0 ) {
+      }
+      else {
+        if (strstr(line,B3_3)-line==0 || strstr(line,B3_4)-line==0 || strstr(line,B3_1)-line==0 ) {
+        }
+        else {
+          if (strstr(line,B3_3)-line==0 || strstr(line,B3_4)-line==0 || strstr(line,B3_1)-line==0 ) {
+          }
+          else {
+            if (strstr(line,B3_3)-line==0 || strstr(line,B3_4)-line==0 || strstr(line,B3_1)-line==0 ) {
+            }
+            else {
+              if (strstr(line,B3_3)-line==0 || strstr(line,B3_4)-line==0 || strstr(line,B3_1)-line==0 ) {
+              }
+            }
+          }
+        }
+      }
+    }
+    B3_3[1]=78;
+    B3_4[2]=78;
+    B3_5[3]=78;
+    if (flag==0) {
+      if (strstr(line,B4_1)-line==0 || strstr(line,B4_2)-line==1 || strstr(line,B4_3)-line==0 || strstr(line,B4_4)-line==0 || strstr(line,B4_1)-line==0 ) {
+        fprintf(out4,"%s",line_prev);
+        fprintf(out4,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out4,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out4,"%s",line);
+      }
+      else {
+        B4_3[1]=65;
+        B4_4[2]=65;
+        B4_5[3]=65;
+        if (strstr(line,B4_3)-line==0 || strstr(line,B4_4)-line==0 || strstr(line,B4_1)-line==0 ) {
+          fprintf(out4,"%s",line_prev);
+          fprintf(out4,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out4,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out4,"%s",line);
+          flag=1;
+        }
+        else {
+          B4_3[1]=67;
+          B4_4[2]=67;
+          B4_5[3]=67;
+          if (strstr(line,B4_3)-line==0 || strstr(line,B4_4)-line==0 || strstr(line,B4_1)-line==0 ) {
+            fprintf(out4,"%s",line_prev);
+            fprintf(out4,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out4,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out4,"%s",line);
+            flag=1;
+          }
+          else {
+            B4_3[1]=71;
+            B4_4[2]=71;
+            B4_5[3]=71;
+            if (strstr(line,B4_3)-line==0 || strstr(line,B4_4)-line==0 || strstr(line,B4_1)-line==0 ) {
+              fprintf(out4,"%s",line_prev);
+              fprintf(out4,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out4,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out4,"%s",line);
+              flag=1;
+            }
+            else {
+              B4_3[1]=84;
+              B4_4[2]=84;
+              B4_5[3]=84;
+              if (strstr(line,B4_3)-line==0 || strstr(line,B4_4)-line==0 || strstr(line,B4_1)-line==0 ) {
+                fprintf(out4,"%s",line_prev);
+                fprintf(out4,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out4,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out4,"%s",line);
+                flag=1;
+              }
+            }
+          }
+        }
+      }
+    }
+    B4_3[1]=78;
+    B4_4[2]=78;
+    B4_5[3]=78;
+    if (flag==0) {
+      if (strstr(line,B5_1)-line==0 || strstr(line,B5_2)-line==1 || strstr(line,B5_3)-line==0 || strstr(line,B5_4)-line==0 || strstr(line,B5_1)-line==0 ) {
+        fprintf(out5,"%s",line_prev);
+        fprintf(out5,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out5,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out5,"%s",line);
+      }
+      else {
+        B5_3[1]=65;
+        B5_4[2]=65;
+        B5_5[3]=65;
+        if (strstr(line,B5_3)-line==0 || strstr(line,B5_4)-line==0 || strstr(line,B5_1)-line==0 ) {
+          fprintf(out5,"%s",line_prev);
+          fprintf(out5,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out5,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out5,"%s",line);
+          flag=1;
+        }
+        else {
+          B5_3[1]=67;
+          B5_4[2]=67;
+          B5_5[3]=67;
+          if (strstr(line,B5_3)-line==0 || strstr(line,B5_4)-line==0 || strstr(line,B5_1)-line==0 ) {
+            fprintf(out5,"%s",line_prev);
+            fprintf(out5,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out5,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out5,"%s",line);
+            flag=1;
+          }
+          else {
+            B5_3[1]=71;
+            B5_4[2]=71;
+            B5_5[3]=71;
+            if (strstr(line,B5_3)-line==0 || strstr(line,B5_4)-line==0 || strstr(line,B5_1)-line==0 ) {
+              fprintf(out5,"%s",line_prev);
+              fprintf(out5,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out5,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out5,"%s",line);
+              flag=1;
+            }
+            else {
+              B5_3[1]=84;
+              B5_4[2]=84;
+              B5_5[3]=84;
+              if (strstr(line,B5_3)-line==0 || strstr(line,B5_4)-line==0 || strstr(line,B5_1)-line==0 ) {
+                fprintf(out5,"%s",line_prev);
+                fprintf(out5,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out5,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out5,"%s",line);
+                flag=1;
+              }
+            }
+          }
+        }
+      }
+    }
+    B5_3[1]=78;
+    B5_4[2]=78;
+    B5_5[3]=78;
+    if (flag==0) {
+      if (strstr(line,B6_1)-line==0 || strstr(line,B6_2)-line==1 || strstr(line,B6_3)-line==0 || strstr(line,B6_4)-line==0 || strstr(line,B6_1)-line==0 ) {
+        fprintf(out6,"%s",line_prev);
+        fprintf(out6,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out6,"%s",line);
+        fgets(line,10000,input);
+        fprintf(out6,"%s",line);
+      }
+      else {
+        B6_3[1]=65;
+        B6_4[2]=65;
+        B6_5[3]=65;
+        if (strstr(line,B6_3)-line==0 || strstr(line,B6_4)-line==0 || strstr(line,B6_1)-line==0 ) {
+          fprintf(out6,"%s",line_prev);
+          fprintf(out6,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out6,"%s",line);
+          fgets(line,10000,input);
+          fprintf(out6,"%s",line);
+          flag=1;
+        }
+        else {
+          B6_3[1]=67;
+          B6_4[2]=67;
+          B6_5[3]=67;
+          if (strstr(line,B6_3)-line==0 || strstr(line,B6_4)-line==0 || strstr(line,B6_1)-line==0 ) {
+            fprintf(out6,"%s",line_prev);
+            fprintf(out6,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out6,"%s",line);
+            fgets(line,10000,input);
+            fprintf(out6,"%s",line);
+            flag=1;
+          }
+          else {
+            B6_3[1]=71;
+            B6_4[2]=71;
+            B6_5[3]=71;
+            if (strstr(line,B6_3)-line==0 || strstr(line,B6_4)-line==0 || strstr(line,B6_1)-line==0 ) {
+              fprintf(out6,"%s",line_prev);
+              fprintf(out6,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out6,"%s",line);
+              fgets(line,10000,input);
+              fprintf(out6,"%s",line);
+              flag=1;
+            }
+            else {
+              B6_3[1]=84;
+              B6_4[2]=84;
+              B6_5[3]=84;
+              if (strstr(line,B6_3)-line==0 || strstr(line,B6_4)-line==0 || strstr(line,B6_1)-line==0 ) {
+                fprintf(out6,"%s",line_prev);
+                fprintf(out6,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out6,"%s",line);
+                fgets(line,10000,input);
+                fprintf(out6,"%s",line);
+                flag=1;
+              }
+            }
+          }
+        }
+      }
+    }
+    B6_3[1]=78;
+    B6_4[2]=78;
+    B6_5[3]=78;
+    if (flag==0) {
+      fprintf(out7,"%s",line_prev);
+      fprintf(out7,"%s",line);
+      fgets(line,10000,input);
+      fprintf(out7,"%s",line);
+      fgets(line,10000,input);
+      fprintf(out7,"%s",line);
+    }
+  }
+  fclose(input);
+  fclose(out1);
+  fclose(out2);
+  fclose(out3);
+  fclose(out4);
+  fclose(out5);
+  fclose(out6);
+  fclose(out7);
+}
